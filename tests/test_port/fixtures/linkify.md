@@ -155,6 +155,16 @@ mailto:test@example.com
 <p><a href="mailto:test@example.com">mailto:test@example.com</a></p>
 .
 
+non-ASCII letters before a scheme are not part of it
+.
+Khttp://example.com
+
+ſhttps://example.com
+.
+<p>K<a href="http://example.com">http://example.com</a></p>
+<p>ſ<a href="https://example.com">https://example.com</a></p>
+.
+
 
 typorgapher should not break href
 .
